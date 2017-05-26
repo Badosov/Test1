@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softomate.Entity", "Softoma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softomate.Repo", "Softomate.Repo\Softomate.Repo.csproj", "{7C084D3A-3358-4DBA-A14D-C8E48A524D4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SotomateColsole", "SotomateColsole\SotomateColsole.csproj", "{A52B71ED-CA1A-4D9A-93E9-D26B18386A95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7C084D3A-3358-4DBA-A14D-C8E48A524D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C084D3A-3358-4DBA-A14D-C8E48A524D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C084D3A-3358-4DBA-A14D-C8E48A524D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52B71ED-CA1A-4D9A-93E9-D26B18386A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52B71ED-CA1A-4D9A-93E9-D26B18386A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52B71ED-CA1A-4D9A-93E9-D26B18386A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52B71ED-CA1A-4D9A-93E9-D26B18386A95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

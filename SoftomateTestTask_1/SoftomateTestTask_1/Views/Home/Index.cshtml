@@ -16,7 +16,9 @@
 		</th>
 	</tr>
 
-	@foreach(SoftomateTestTask_1.Models.Person person in ViewBag.People) { 
+	@*@foreach(SoftomateTestTask_1.Models.Person person in ViewBag.People) {*@
+    @foreach(Softomate.Entity.People person in ViewBag.People) {
+   
 		<tr>
 			<th>@person.LastName</th>
 			<th>@person.FirstName</th>

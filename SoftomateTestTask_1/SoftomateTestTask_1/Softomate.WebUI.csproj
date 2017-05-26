@@ -309,7 +309,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Softomate.Data\Softomate.Data.csproj">
-      <Project>{1E37B8B6-E26F-4695-9F37-F700DD3D516F}</Project>
+      <Project>{1e37b8b6-e26f-4695-9f37-f700dd3d516f}</Project>
       <Name>Softomate.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\Softomate.Entity\Softomate.Entity.csproj">

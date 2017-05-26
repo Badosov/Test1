@@ -1,0 +1,16 @@
+D:\с#\SoftomateTestTask_1\SotomateColsole\bin\Debug\SotomateColsole.exe.config
+D:\с#\SoftomateTestTask_1\SotomateColsole\bin\Debug\SotomateColsole.exe
+D:\с#\SoftomateTestTask_1\SotomateColsole\bin\Debug\SotomateColsole.pdb
+D:\с#\SoftomateTestTask_1\SotomateColsole\bin\Debug\Softomate.Data.dll
+D:\с#\SoftomateTestTask_1\SotomateColsole\bin\Debug\Softomate.Entity.dll
+D:\с#\SoftomateTestTask_1\SotomateColsole\bin\Debug\Softomate.Repo.dll
+D:\с#\SoftomateTestTask_1\SotomateColsole\bin\Debug\EntityFramework.dll
+D:\с#\SoftomateTestTask_1\SotomateColsole\bin\Debug\Softomate.Data.pdb
+D:\с#\SoftomateTestTask_1\SotomateColsole\bin\Debug\Softomate.Entity.pdb
+D:\с#\SoftomateTestTask_1\SotomateColsole\bin\Debug\Softomate.Repo.pdb
+D:\с#\SoftomateTestTask_1\SotomateColsole\bin\Debug\EntityFramework.xml
+D:\с#\SoftomateTestTask_1\SotomateColsole\obj\Debug\SotomateColsole.csprojResolveAssemblyReference.cache
+D:\с#\SoftomateTestTask_1\SotomateColsole\obj\Debug\SotomateColsole.exe
+D:\с#\SoftomateTestTask_1\SotomateColsole\obj\Debug\SotomateColsole.pdb
+D:\с#\SoftomateTestTask_1\SotomateColsole\bin\Debug\EntityFramework.SqlServer.dll
+D:\с#\SoftomateTestTask_1\SotomateColsole\bin\Debug\EntityFramework.SqlServer.xml

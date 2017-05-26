@@ -20,5 +20,15 @@ namespace Softomate.Entity
         public string FirstName { get; set; }
         [StringLength(50)]
         public string Patronymic { get; set; }
+
+        public People()
+        { }
+
+        public People(string LastName, string FirstName, string Patronymic)
+        {
+            this.LastName = LastName;
+            this.FirstName = FirstName;
+            this.Patronymic = Patronymic;
+        }
     }
 }

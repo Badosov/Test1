@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
 namespace Softomate.Repo
 {
     public class PeopleRepo
@@ -14,7 +16,17 @@ namespace Softomate.Repo
         {
             using (var dbContext = new SoftomateContext())
             {
+                
                 return dbContext.People.ToList();
+            }
+        }
+
+        public void AddPeople(People people)
+        {
+            using (var dbContext = new SoftomateContext())
+            {
+                dbContext.People.Add(people);
+                dbContext.SaveChanges();
             }
         }
     }

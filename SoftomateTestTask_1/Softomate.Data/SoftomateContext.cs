@@ -10,7 +10,7 @@ namespace Softomate.Data
 {
     public class SoftomateContext : DbContext
     {
-        public SoftomateContext() : base(@"Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=C:\USERS\BADOSOV\DOCUMENTS\SOFTOMATEDB.MDF;Integrated Security=True")
+        public SoftomateContext() : base(@"Data Source=(LocalDB)\MSSQLLocalDB; Integrated Security=True")
         {
 
         }

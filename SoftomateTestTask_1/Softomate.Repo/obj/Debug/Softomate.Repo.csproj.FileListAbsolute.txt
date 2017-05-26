@@ -19,3 +19,24 @@ C:\Users\badosov\documents\visual studio 2015\Projects\SoftomateTestTask_1\Softo
 C:\Users\badosov\documents\visual studio 2015\Projects\SoftomateTestTask_1\Softomate.Repo\bin\Debug\MongoDB.Bson.xml
 C:\Users\badosov\documents\visual studio 2015\Projects\SoftomateTestTask_1\Softomate.Repo\bin\Debug\MongoDB.Driver.xml
 C:\Users\badosov\documents\visual studio 2015\Projects\SoftomateTestTask_1\Softomate.Repo\bin\Debug\MongoDB.Driver.Core.xml
+D:\с#\SoftomateTestTask_1\Softomate.Repo\bin\Debug\Softomate.Repo.dll.config
+D:\с#\SoftomateTestTask_1\Softomate.Repo\bin\Debug\Softomate.Repo.dll
+D:\с#\SoftomateTestTask_1\Softomate.Repo\bin\Debug\Softomate.Repo.pdb
+D:\с#\SoftomateTestTask_1\Softomate.Repo\bin\Debug\EntityFramework.dll
+D:\с#\SoftomateTestTask_1\Softomate.Repo\bin\Debug\EntityFramework.SqlServer.dll
+D:\с#\SoftomateTestTask_1\Softomate.Repo\bin\Debug\MongoDB.Bson.dll
+D:\с#\SoftomateTestTask_1\Softomate.Repo\bin\Debug\MongoDB.Driver.Core.dll
+D:\с#\SoftomateTestTask_1\Softomate.Repo\bin\Debug\MongoDB.Driver.dll
+D:\с#\SoftomateTestTask_1\Softomate.Repo\bin\Debug\Softomate.Data.dll
+D:\с#\SoftomateTestTask_1\Softomate.Repo\bin\Debug\Softomate.Entity.dll
+D:\с#\SoftomateTestTask_1\Softomate.Repo\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\с#\SoftomateTestTask_1\Softomate.Repo\bin\Debug\Softomate.Data.pdb
+D:\с#\SoftomateTestTask_1\Softomate.Repo\bin\Debug\Softomate.Entity.pdb
+D:\с#\SoftomateTestTask_1\Softomate.Repo\bin\Debug\EntityFramework.xml
+D:\с#\SoftomateTestTask_1\Softomate.Repo\bin\Debug\EntityFramework.SqlServer.xml
+D:\с#\SoftomateTestTask_1\Softomate.Repo\bin\Debug\MongoDB.Bson.xml
+D:\с#\SoftomateTestTask_1\Softomate.Repo\bin\Debug\MongoDB.Driver.xml
+D:\с#\SoftomateTestTask_1\Softomate.Repo\bin\Debug\MongoDB.Driver.Core.xml
+D:\с#\SoftomateTestTask_1\Softomate.Repo\obj\Debug\Softomate.Repo.csprojResolveAssemblyReference.cache
+D:\с#\SoftomateTestTask_1\Softomate.Repo\obj\Debug\Softomate.Repo.dll
+D:\с#\SoftomateTestTask_1\Softomate.Repo\obj\Debug\Softomate.Repo.pdb

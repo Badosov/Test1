@@ -16,31 +16,7 @@ namespace SoftomateTestTask_1.Controllers
         public ActionResult Index()
         {
             var peopleRepo = new PeopleRepo();
-            var people = new List<Person>();
-            foreach (People person in peopleRepo.GetPeople())
-            {
-                people.Add(new Person()
-                {
-                    LastName = person.LastName,
-                    FirstName = person.FirstName,
-                    Patronymic = person.Patronymic
-                });
-            }
-
-
-            //var peopleRepo = new PeopleRepo();
-            //var people = new List<Person>();
-            //var test = peopleRepo.GetPeople();
-            //foreach (PeopleMongo person in peopleRepo.GetPeople())
-            //{
-            //    people.Add(new Person()
-            //    {
-            //        LastName = person.LastName,
-            //        FirstName = person.FirstName,
-            //        Patronymic = person.Patronymic
-            //    });
-            //}
-            ViewBag.People = people;
+            ViewBag.People = peopleRepo.GetPeople();
             return View();
         }
 
@@ -51,34 +27,13 @@ namespace SoftomateTestTask_1.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult AddPerson(Person person)
+        public ActionResult AddPerson(People person)
         {
-            var newPerson = new People();
-
-            newPerson.LastName = person.LastName;
-            newPerson.FirstName = person.FirstName;
-            newPerson.Patronymic = person.Patronymic;
-
-            using (var dbCtx = new SoftomateContext())
-            {
-                dbCtx.People.Add(newPerson);
-                dbCtx.SaveChanges();
-            }
+            var peopleRepo = new PeopleRepo();
+            peopleRepo.AddPeople(person);            
             return RedirectToAction("Index");
         }
 
-        //public ActionResult About()
-        //{
-        //    ViewBag.Message = "Your application description page.";
-
-        //    return View();
-        //}
-
-        //public ActionResult Contact()
-        //{
-        //    ViewBag.Message = "Your contact page.";
-
-        //    return View();
-        //}
+ 
     }
 }
