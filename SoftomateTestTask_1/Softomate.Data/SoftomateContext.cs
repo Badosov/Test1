@@ -8,13 +8,33 @@ using System.Threading.Tasks;
 
 namespace Softomate.Data
 {
-    public class SoftomateContext : DbContext
+
+    //класс просто что бы вытащитьданные из базы
+    
+    public class SoftomateContext //: DbContext
     {
-        public SoftomateContext() : base(@"Data Source=(LocalDB)\MSSQLLocalDB; Integrated Security=True")
+        static List<People> data;
+        public SoftomateContext() //: base(@"Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=DataDirectory\SOFTOMATEDB.MDF;Integrated Security=True")
         {
-
+            if (data == null)
+            {
+                People = new List<People>();
+                data = People;
+            }
+            else
+                People = data;
         }
+        
+        public virtual List<People> People { get; set; } //это типо хранилище данных
 
-        public virtual DbSet<People> People { get; set; }
+    //this from connect SQL base
+    //public SoftomateContext() //: base(@"Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=DataDirectory\SOFTOMATEDB.MDF;Integrated Security=True")
+    //{
+
+    //}
+
+    // public virtual DbSet<People> People { get; set; }
+
+
     }
 }

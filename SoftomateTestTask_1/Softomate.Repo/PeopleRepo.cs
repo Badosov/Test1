@@ -10,24 +10,29 @@ using System.Threading.Tasks;
 
 namespace Softomate.Repo
 {
-    public class PeopleRepo
+    // класс для работы с данными. не зависимо от куда мы их берем,
+    //в контроллер мы получим коллекцию типа People
+
+    public class PeopleRepo  
     {
+        SoftomateContext dbContext = new SoftomateContext();
+        public PeopleRepo()
+        { }
         public List<People> GetPeople()
         {
-            using (var dbContext = new SoftomateContext())
-            {
-                
-                return dbContext.People.ToList();
-            }
+            //using (var dbContext = new SoftomateContext())
+            //{
+                return dbContext.People;
+            //}
         }
 
         public void AddPeople(People people)
         {
-            using (var dbContext = new SoftomateContext())
-            {
+            //using (var dbContext = new SoftomateContext())
+            //{
                 dbContext.People.Add(people);
-                dbContext.SaveChanges();
-            }
+               // dbContext.SaveChanges();
+            //}
         }
     }
 }

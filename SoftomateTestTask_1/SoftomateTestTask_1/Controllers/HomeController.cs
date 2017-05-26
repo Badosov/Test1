@@ -13,9 +13,13 @@ namespace SoftomateTestTask_1.Controllers
 {
     public class HomeController : Controller
     {
+        public PeopleRepo peopleRepo;
+        public HomeController()
+        {
+          peopleRepo = new PeopleRepo();
+        }
         public ActionResult Index()
         {
-            var peopleRepo = new PeopleRepo();
             ViewBag.People = peopleRepo.GetPeople();
             return View();
         }
@@ -29,7 +33,7 @@ namespace SoftomateTestTask_1.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult AddPerson(People person)
         {
-            var peopleRepo = new PeopleRepo();
+            //var peopleRepo = new PeopleRepo();
             peopleRepo.AddPeople(person);            
             return RedirectToAction("Index");
         }
